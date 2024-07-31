@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+    color: #8B4B39;
+    background-color: #F7F1ED;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.booking-content {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(139, 75, 57, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    line-height: 1.1;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #B37E6B;
+    border-radius: 5px;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #8B4B39;
+    color: #F7F1ED;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cta-button:hover {
+    background-color: #B37E6B;
+}
+
+@media (max-width: 768px) {
+    .booking-content {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+}

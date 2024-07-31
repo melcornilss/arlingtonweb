@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Arlington Nails</title>
+    <link rel="stylesheet" href="appt.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="booking-content">
+            <h1>Spa&Nails</h1>
+            <h2>Book Your Appointment</h2>
+            <form id="booking-form">
+                <div class="form-group">
+                    <label for="service">Select Service:</label>
+                    <select id="service" name="service" required>
+                        <option value="">Choose a service</option>
+                        <option value="manicure">Manicure Services</option>
+                        <option value="pedicure">Artificial Nail Services </option>
+                        <option value="nailart">Waxing Service</option>
+                        <option value="spapackage">Additional Service</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Select Date:</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Select Time:</label>
+                    <input type="time" id="time" name="time" required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="cta-button">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
